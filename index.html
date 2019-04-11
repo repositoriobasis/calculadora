@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/css.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+   
+
+</head>
+
+<body>
+    <header>
+        <i class="fas fa-calculator"></i>
+    </header>
+
+    <section>
+
+        <div class="operando">
+            <div id="resultado"> <p id="resul"></p></div>
+
+            <button id="sete" onclick="sete()">7</button>
+            <button id="oito" onclick="oito()">8</button>
+            <button id="nove" onclick="nove()">9</button>
+
+            <button id="quatro"onclick="quatro()">4</button>
+            <button id="cinco" onclick="cinco()">5</button>
+            <button id="seis"onclick="seis()">6</button>
+
+            <button id="tres"onclick="tres()">3</button>
+            <button id="dois"onclick="dois()">2</button>
+            <button id="um"onclick="um()">1</button>
+
+            <button id="zero"onclick="zero()">0</button>
+            <button id="float" onclick="float()">,</button>
+            <button  onclick="limpar()">Limpar</button>
+
+        </div>
+        <div class="operadores">
+            <button id="soma" onclick="soma()"><i class="fas fa-plus"></i></button>
+            <button id="sub" onclick="sub()"><i class="fas fa-divide "></i></button>
+            <button id="divi" onclick="div()"><i class="fas fa-minus"></i></button>
+            <button id="igl" onclick="igual()"><i class="fas fa-equals" id="igual"></i></button>
+        </div>
+    </section>
+
+    <script src="script/index.js" /> </script>
+</body>
+
+</html>
